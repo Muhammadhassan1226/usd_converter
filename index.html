@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+
+    <title>Curreny_Calculator</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Curreny Converter</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="conatiner">
+        <div class="heading">
+            <h1>Choose a Currency to Convert</h1>
+        </div>
+        <div class="formstyle">
+            <form action="" method="get">
+                <!-- <label for="">Please Choose a Quantity: </label> -->
+                <h3>Please Choose a Quantity: </h3>
+                <input type="number" name="quantity" min="1" max="10">
+                <h3>Please Choose a Currency: </h3>
+                <select name="currency" style="font-size: 23px;">
+                    <!-- <option value="PKR">Pak Rupee</option> -->
+                    <option value="USD">US Dollars</option>
+                    <!-- <option value="EUR">Euro</option> -->
+                </select>
+                <br />
+
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="output">
+            <h2>Here is Your Currency</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <!-- <th>Currency</th> -->
+                        <th>Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Your dynamic table content will be inserted here using JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

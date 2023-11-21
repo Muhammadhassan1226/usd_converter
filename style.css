@@ -1,0 +1,148 @@
+/* body {
+    background-color: aliceblue;
+} */
+/* container.h1 {}    May be used instaed of id  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    font-size: 16px;
+    background-color: aliceblue;
+    padding: 15px;
+
+
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 29px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 600ms;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(54, 95, 95);
+}
+
+/* margin:  y x */
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.conatiner {
+    min-height: 150vh;
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 80vw;
+    margin: auto;
+
+
+}
+
+.heading,
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 23px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner form {
+    display: flex;
+    flex-direction: column;
+}
+
+.conatiner form input[type="number"],
+select,
+label {
+    font-size: 25px;
+    margin: 23px 0;
+    width: 23vw;
+    cursor: pointer;
+}
+
+.container form select {
+    font-size: 43px;
+    cursor: pointer;
+}
+
+.container form label {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 23vw;
+    border-radius: 13px;
+    border-style: none;
+    padding: 15px 1px;
+    background: aquamarine;
+    cursor: pointer;
+
+}
+
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    margin-left: 226px;
+}
+
+.output h2 {
+    margin-right: 230px;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.output t footer {
+    text-align: center;
+}
